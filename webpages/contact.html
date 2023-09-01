@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TheFashionNest: Trendy Fashion for Everyone</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/src/contact.css" />
+
+   <!-- Include Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+   <!-- Custom CSS for Button Text Color -->
+   <style>
+    .btn-black-text {
+        color: black; /* Set text color to black */
+    }
+</style>
+</head>
+
+<body id="women-skirts-wrapper">
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- ========== Start Main Body ========== -->
+  <div id="main">
+    <div class="container container-contact-us">
+      <h2 class="text-center">Contact Us</h2>
+      <div class="row d-flex px-3  row-contact-us">
+        <div class="col-lg-6 col-md-12 mt-4 contact-us contact-img">
+          <img src="/src/contact-us-image.jpg" alt="Business Image" class="img-fluid rounded-3">
+        </div>
+        <div class="col-lg-6 col-md-12 contact-us">
+          <form class="contact-us-form">
+            <div class="mb-3">
+              <label for="name" class="form-label fw-semibold">Your Name:</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label fw-semibold">Email Address:</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your E-Mail"
+                required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label fw-semibold">Message:</label>
+              <textarea class="form-control" id="message" name="message" rows="2" placeholder="Write Your message"
+                required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-success btn-black-text" style="width: 100%;">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========== End Main Body ============ -->
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <!-- Include jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Include Bootstrap JavaScript and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="/js/script.js"></script>
+</body>
+
+</html>

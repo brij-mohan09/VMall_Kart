@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TheFashionNest: Trendy Fashion for Everyone</title>
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body id="header-wrapper">
+  <!-- ========== Start Main Body ========== -->
+  <div class="header">
+    <!-- ========== Start Mobile Header ========== -->
+    <div class="container-fluid mobile-header">
+      <!-- First Level: Social Icons -->
+      <div class="row first-level d-flex align-items-center">
+        <div class=" col-auto social-icons mx-auto py-1">
+          <a href="https://www.linkedin.com/in/ajeetkumarrauniyar/" target="_blank" class="social-icon social-icon-sm"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/ashaekumeed5487/" target="_blank" class="social-icon social-icon-sm"><i
+              class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/ashaekumeed5487/" target="_blank" class="social-icon social-icon-sm"><i
+              class="fab fa-instagram"></i></a>
+          <a href="https://github.com/ajeetkumarrauniyar" target="_blank" class="social-icon social-icon-sm"><i
+              class="fa-brands fa-github"></i></a>
+
+        </div>
+      </div>
+      <!-- Second Level: Logo -->
+      <div class="row second-level d-flex align-items-center">
+        <div class="col-auto mx-auto border border-2 border-black border-opacity-25 my-2 p-2">
+          <a href="/index.html" class="logo-sm">TheFashionFest</a>
+        </div>
+      </div>
+      <!-- Third Level: Search Box, User Icon, Wishlist Icon, Cart Icon, Offcanvas Navigation -->
+      <div class="row third-level d-flex justify-content-around align-items-center third-level-sm ">
+        <div class="col-5">
+          <div class="third-level d-flex align-items-center justify-content-between">
+            
+            <!-- Search Box -->
+            <div class="search-box search-box-sm">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="third-level d-flex align-items-center justify-content-between">
+            
+
+            <!-- User Icon -->
+            <a href="/other-pages/login.html" class="user-icon btn-login"><i class="fas fa-user"></i></a>
+
+            <!-- Wishlist Icon -->
+            <a href="#" class="wishlist-icon-header"><i class="far fa-heart"></i></a>
+
+            <!-- Cart Icon -->
+            <a href="/other-pages/cart.html" class="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+          </div>
+          <!-- Offcanvas Navigation Toggle Button -->
+        </div>
+        <div class="col-3">
+          <nav class="navbar">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <!-- Home Nav Item -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <!-- Shop Nav item -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="/Products-Pages/All Products/products-all.html">All Products</a>
+                    </li>
+                    <!-- Men Nav Item -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Men
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/Products-Pages/Men Product/all-men-products.html">All
+                            Products</a>
+                        <li><a class="dropdown-item" href="/Products-Pages/Men Product/men-shirts.html">Shirts</a>
+                        </li>
+                        <li><a class="dropdown-item" href="/Products-Pages/Men Product/men-pants.html">Pants</a></li>
+                        <li><a class="dropdown-item" href="/Products-Pages/Men Product/men-hoodies.html">Hoodies</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- Women Nav Item -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Women
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/Products-Pages/Women Product/all-women-products.html">All
+                            Products</a>
+                        <li><a class="dropdown-item" href="/Products-Pages/Women Product/women-dresses.html">Dress</a>
+                        </li>
+                        <li><a class="dropdown-item" href="/Products-Pages/Women Product/women-pants.html">Pants</a>
+                        </li>
+                        <li><a class="dropdown-item" href="/Products-Pages/Women Product/women-skirts.html">Skirts</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- Kids Nav Item -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="/Products-Pages/Kids Product/all-kids-product.html">Kids</a>
+                    </li>
+                    <!-- Contact Nav Item -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="/other-pages/contact-us.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- ========== End Mobile Header ============ -->
+
+
+    <!-- ========== Start Desktop Header ========== -->
+    <div class="container-fluid desktop-header">
+      <!-- First Level: Support Info and Social Icons -->
+      <div class="row first-level d-flex align-items-center">
+        <!-- Support Info -->
+        <div class="col-3">
+          <small class="support-info ">support@thefashionfest.com</small>
+        </div>
+        <!-- Sale & Offer Marquee -->
+        <div class="col-7">
+          <small>
+            <marquee class="text-warning fw-medium text-center" direction="left"><b class="text-danger">Free
+                Shipping</b>&nbsp;
+              This Week Order Over - <strong> &#8377;499</strong> <b class="text-danger ps-5"> Sale ! </b> &nbsp; 50%
+              Off on Purchase of above <strong>&#8377; 999</strong>
+              !!</marquee>
+          </small>
+        </div>
+        <!-- Social Icons -->
+        <div class="col-2">
+          <div class="social-icons float-end pe-lg-3">
+            <small><a href="https://www.linkedin.com/in/ajeetkumarrauniyar/" target="_blank" class="social-icon"><i
+                  class="fa-brands fa-linkedin"></i></a></small>
+            <small><a href="https://www.facebook.com/ashaekumeed5487/" target="_blank" class="social-icon"><i
+                  class="fab fa-facebook"></i></a></small>
+            <small><a href="https://www.instagram.com/ashaekumeed5487/" target="_blank" class="social-icon"><i
+                  class="fab fa-instagram"></i></a></small>
+            <small><a href="https://github.com/ajeetkumarrauniyar" target="_blank" class="social-icon"><i
+                  class="fa-brands fa-github"></i></a></small>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Level: Logo, Search Box with Search Button, -->
+      <div class="row second-level d-flex align-items-center">
+        <!-- Logo -->
+        <div class="col-auto"><a href="/index.html" class="logo">TheFashionFest</a></div>
+        <!-- Search Box with Search Button -->
+        <div class="col-auto search-box justify-content-center">
+          <input type="text" placeholder="Search">
+          <button class="search-button"><i class="fas fa-search search-button-icon"></i></button>
+        </div> 
+        <!-- User Icons -->
+        <div class="col-auto user-icons float-end">
+          <a class="btn btn-login border border-dark btn-sm" href="/other-pages/login.html" role="button">Login</a>
+
+          <a href="/other-pages/404.html" class="wishlist-icon-header"><i class="far fa-heart"></i></a>
+
+          <a href="/other-pages/cart.html" class="cart-icon-header"><i class="fas fa-shopping-cart"></i></a>
+          
+          <a href="/other-pages/404.html"
+            class="user-avatar ratio ratio-1x1 rounded-circle overflow-hidden mt-2 mx-auto">
+            <img src="/assets/user.png" alt="user-avatar"></a>
+        </div>
+      </div>
+
+      <!-- Third Level (Navigation) -->
+      <div class="row third-level">
+        <div class="col-12" style="padding: 0;">
+          <ul class="nav justify-content-center">
+            <!-- Home Nav Item -->
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <!-- Shop Nav item -->
+            <li class="nav-item">
+              <a class="nav-link" href="/Products-Pages/All Products/products-all.html">All Products</a>
+            </li>
+            <!-- Men Nav Item -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Men
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/Products-Pages/Men Product/all-men-products.html">All Products</a></li>
+                <li><a class="dropdown-item" href="/Products-Pages/Men Product/men-shirts.html">Shirts</a></li>
+                <li><a class="dropdown-item" href="/Products-Pages/Men Product/men-pants.html">Pants</a></li>
+                <li><a class="dropdown-item" href="/Products-Pages/Men Product/men-hoodies.html">Hoodies</a></li>
+              </ul>
+            </li>
+            <!-- Women Nav Item -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Women
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/Products-Pages/Women Product/all-women-products.html">All
+                    Products</a></li>
+                <li><a class="dropdown-item" href="/Products-Pages/Women Product/women-dresses.html">Dresses</a></li>
+                <li><a class="dropdown-item" href="/Products-Pages/Women Product/women-pants.html">Pants</a></li>
+                <li><a class="dropdown-item" href="/Products-Pages/Women Product/women-skirts.html">Skirts</a></li>
+              </ul>
+            </li>
+            <!-- Kids Nav Item -->
+            <li class="nav-item">
+              <a class="nav-link" href="/Products-Pages/Kids Product/all-kids-product.html">Kids</a>
+            </li>
+            <!-- Contact Nav Item -->
+            <li class="nav-item">
+              <a class="nav-link" href="/other-pages/contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- ========== End Desktop Header ========== -->
+  </div>
+  <!-- ========== End Main Body ============ -->
+
+  <!-- Include jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Include Bootstrap JavaScript and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

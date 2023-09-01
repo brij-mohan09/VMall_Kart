@@ -1,0 +1,30 @@
+.container-contact-us {
+    padding: 20px;
+}
+
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us {
+    padding: 20px;
+}
+
+.contact-img img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .row-contact-us {
+        flex-direction: column;
+    }
+
+    .contact-us {
+        width: 100%;
+    }
+}
