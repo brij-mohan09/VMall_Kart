@@ -2,12 +2,11 @@
 //Load Dynamic Header & Footer 
 //===================================================================
 $(function () {
-    $("#header").load('/includes/header.html');
-    $("#footer").load('/includes/footer.html');
+    $("#header").load('/common/header.html');
+    $("#footer").load('/common/footer.html');
   })
   //===================================================================
   // Login Page
-  //===================================================================
   document.addEventListener("DOMContentLoaded", function () {
     const loginForm = document.getElementById("loginForm");
   
@@ -24,6 +23,8 @@ $(function () {
         }
     });
   });
+  //===================================================================
+ 
   //===================================================================
   // Cart Item Count Increment & Decrement
   //===================================================================

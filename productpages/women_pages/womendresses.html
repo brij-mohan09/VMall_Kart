@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VMall-Kart</title>
+    <link rel="icon" type="image/x-icon" href="/src/VMall-Kart.png">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body id="all-products-wrapper">
+    <!-- Header -->
+    <div id="header"></div>
+
+    <!-- ========== Start Main Body ========== -->
+    <div class="container my-5">
+        <h1 class="text-center">Dresses</h1>
+        <!-- Product Row 1 -->
+        <div class="row my-3">
+            <!-- Product 1 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+
+                <div class="card shadow">
+                    <!-- Product Image -->
+                    <img src="data:image/jpeg;base64,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" class="image-cover mx-auto pt-2"
+                        alt="Women Dresses">
+                    <!-- Product Title -->
+                    <div class="card-footer border-top border-gray-300 p-4">
+                        <a href="#" class="h5">Women Dresses</a>
+                        <!-- Product Short Description -->
+                        <h3 class="h6 fw-light text-gray mt-2">Fancy Lehanga</h3>
+                        <!-- Star Rating -->
+                        <div class="d-flex mt-3">
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning"></span>
+                            <span class="badge bg-primary ms-2">4.7</span>
+                        </div>
+                        <!-- Price  & Add to Cart-->
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <!-- Price -->
+                            <span class="h5 mb-0 text-gray">&#8377; 2299.00</span>
+                            <!-- Add to Cart -->
+                            <a class="btn btn-xs btn-tertiary" href="/otherpages/cart.html">
+                                <span class="fas fa-cart-plus me-2"></span> Add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+
+                <div class="card shadow">
+                    <!-- Product Image -->
+                    <img src="https://5.imimg.com/data5/ANDROID/Default/2022/2/SY/VX/GF/11667563/product-jpeg-500x500.jpg" class="image-cover mx-auto pt-2"
+                        alt="Women Dresses">
+                    <!-- Product Title -->
+                    <div class="card-footer border-top border-gray-300 p-4">
+                        <a href="#" class="h5">Women Dresses</a>
+                        <!-- Product Short Description -->
+                        <h3 class="h6 fw-light text-gray mt-2">Blue Lehanga</h3>
+                        <!-- Star Rating -->
+                        <div class="d-flex mt-3">
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning"></span>
+                            <span class="badge bg-primary ms-2">4.7</span>
+                        </div>
+                        <!-- Price  & Add to Cart-->
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <!-- Price -->
+                            <span class="h5 mb-0 text-gray">&#8377; 2199.00</span>
+                            <!-- Add to Cart -->
+                            <a class="btn btn-xs btn-tertiary" href="/otherpages/cart.html">
+                                <span class="fas fa-cart-plus me-2"></span> Add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3-->
+            <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+
+                <div class="card shadow">
+                    <!-- Product Image -->
+                    <img src="https://www.joshindia.com/cdn/shop/products/photo_6307366805588522019_x.jpg?v=1659958888&width=1445" class="image-cover mx-auto pt-2"
+                        alt="Women Dresses">
+                    <!-- Product Title -->
+                    <div class="card-footer border-top border-gray-300 p-4">
+                        <a href="#" class="h5">Women Dresses</a>
+                        <!-- Product Short Description -->
+                        <h3 class="h6 fw-light text-gray mt-2">Light Blue Lehanga</h3>
+                        <!-- Star Rating -->
+                        <div class="d-flex mt-3">
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning"></span>
+                            <span class="badge bg-primary ms-2">4.7</span>
+                        </div>
+                        <!-- Price  & Add to Cart-->
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <!-- Price -->
+                            <span class="h5 mb-0 text-gray">&#8377; 3299.00</span>
+                            <!-- Add to Cart -->
+                            <a class="btn btn-xs btn-tertiary" href="/otherpages/cart.html">
+                                <span class="fas fa-cart-plus me-2"></span> Add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4-->
+            <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+
+                <div class="card shadow">
+                    <!-- Product Image -->
+                    <img src="https://www.parivarceremony.com/media/catalog/product/cache/62408a38a401bb86dbe3ed2f017b539f/p/r/prc3948.jpg" class="image-cover mx-auto pt-2"
+                        alt="Women Dresses">
+                    <!-- Product Title -->
+                    <div class="card-footer border-top border-gray-300 p-4">
+                        <a href="#" class="h5">Women Dresses</a>
+                        <!-- Product Short Description -->
+                        <h3 class="h6 fw-light text-gray mt-2">Dulhan Lehanga</h3>
+                        <!-- Star Rating -->
+                        <div class="d-flex mt-3">
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning"></span>
+                            <span class="badge bg-primary ms-2">4.7</span>
+                        </div>
+                        <!-- Price  & Add to Cart-->
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <!-- Price -->
+                            <span class="h5 mb-0 text-gray">&#8377; 4299.00</span>
+                            <!-- Add to Cart -->
+                            <a class="btn btn-xs btn-tertiary" href="/otherpages/cart.html">
+                                <span class="fas fa-cart-plus me-2"></span> Add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product Row 2 -->
+        <div class="row my-3">
+            <!-- Product 5-->
+            <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+
+                <div class="card shadow">
+                    <!-- Product Image -->
+                    <img src="https://images.meesho.com/images/products/243811184/mjtfr_512.webp" class="image-cover mx-auto pt-2"
+                        alt="Women Dresses">
+                    <!-- Product Title -->
+                    <div class="card-footer border-top border-gray-300 p-4">
+                        <a href="#" class="h5">Women Dresses</a>
+                        <!-- Product Short Description -->
+                        <h3 class="h6 fw-light text-gray mt-2">Two Shades Color Gawn</h3>
+                        <!-- Star Rating -->
+                        <div class="d-flex mt-3">
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning"></span>
+                            <span class="badge bg-primary ms-2">4.7</span>
+                        </div>
+                        <!-- Price  & Add to Cart-->
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <!-- Price -->
+                            <span class="h5 mb-0 text-gray">&#8377; 2199.00</span>
+                            <!-- Add to Cart -->
+                            <a class="btn btn-xs btn-tertiary" href="/otherpages/cart.html">
+                                <span class="fas fa-cart-plus me-2"></span> Add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 6-->
+            <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+
+                <div class="card shadow">
+                    <!-- Product Image -->
+                    <img src="https://tiimg.tistatic.com/fp/2/007/765/women-off-shoulders-heavy-embroidered-designer-flowered-design-wedding-gown--974.jpg" class="image-cover mx-auto pt-2"
+                        alt="Women Dresses">
+                    <!-- Product Title -->
+                    <div class="card-footer border-top border-gray-300 p-4">
+                        <a href="#" class="h5">Women Dresses</a>
+                        <!-- Product Short Description -->
+                        <h3 class="h6 fw-light text-gray mt-2">Designer Party Gawan</h3>
+                        <!-- Star Rating -->
+                        <div class="d-flex mt-3">
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning"></span>
+                            <span class="badge bg-primary ms-2">4.7</span>
+                        </div>
+                        <!-- Price  & Add to Cart-->
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <!-- Price -->
+                            <span class="h5 mb-0 text-gray">&#8377; 4299.00</span>
+                            <!-- Add to Cart -->
+                            <a class="btn btn-xs btn-tertiary" href="/otherpages/cart.html">
+                                <span class="fas fa-cart-plus me-2"></span> Add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 7-->
+            <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+
+                <div class="card shadow">
+                    <!-- Product Image -->
+                    <img src="https://www.soosi.co.in/cdn/shop/products/IMG-20190425-WA0017_1200x1200.jpg?v=1571711116" class="image-cover mx-auto pt-2"
+                        alt="Women Dresses">
+                    <!-- Product Title -->
+                    <div class="card-footer border-top border-gray-300 p-4">
+                        <a href="#" class="h5">Women Dresses</a>
+                        <!-- Product Short Description -->
+                        <h3 class="h6 fw-light text-gray mt-2">Party Gawn</h3>
+                        <!-- Star Rating -->
+                        <div class="d-flex mt-3">
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning"></span>
+                            <span class="badge bg-primary ms-2">4.7</span>
+                        </div>
+                        <!-- Price  & Add to Cart-->
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <!-- Price -->
+                            <span class="h5 mb-0 text-gray">&#8377; 3299.00</span>
+                            <!-- Add to Cart -->
+                            <a class="btn btn-xs btn-tertiary" href="/otherpages/cart.html">
+                                <span class="fas fa-cart-plus me-2"></span> Add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 8-->
+            <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+
+                <div class="card shadow">
+                    <!-- Product Image -->
+                    <img src="https://www.shahifits.in/wp-content/uploads/2021/07/Party-Wear-Gown-Dress-for-Women.jpg" class="image-cover mx-auto pt-2"
+                        alt="Women Dresses">
+                    <!-- Product Title -->
+                    <div class="card-footer border-top border-gray-300 p-4">
+                        <a href="#" class="h5">Women Dresses</a>
+                        <!-- Product Short Description -->
+                        <h3 class="h6 fw-light text-gray mt-2">Dark Red Gawn</h3>
+                        <!-- Star Rating -->
+                        <div class="d-flex mt-3">
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning me-1"></span>
+                            <span class="star fas fa-star text-warning"></span>
+                            <span class="badge bg-primary ms-2">4.7</span>
+                        </div>
+                        <!-- Price  & Add to Cart-->
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <!-- Price -->
+                            <span class="h5 mb-0 text-gray">&#8377; 4299.00</span>
+                            <!-- Add to Cart -->
+                            <a class="btn btn-xs btn-tertiary" href="/otherpages/cart.html">
+                                <span class="fas fa-cart-plus me-2"></span> Add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== End Main Body ============ -->
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Bootstrap JavaScript and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/src/script.js"></script>
+</body>
+
+</html>

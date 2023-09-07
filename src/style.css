@@ -183,9 +183,6 @@ li {
 
 /* ------------------------------- 4.1. Mobile Header ---------------------------------*/
 /* First Level */
-.social-icon-sm {
-    margin: 5px 3px;
-}
 
 /* Second Level */
 .logo-sm {
@@ -256,18 +253,6 @@ li {
     background-color: var(--text-color);
 }
 
-.support-info {
-    margin: 0;
-    color: var(--neutral-bg-color);
-    display: inline;
-    font-size: 99%;
-}
-
-.social-icons .social-icon {
-    color: var(--neutral-bg-color);
-    margin: 0 5px;
-    font-size: 98%;
-}
 
 /* Second Level */
 .second-level {
@@ -321,7 +306,6 @@ li {
     align-items: center;
 }
 
-.wishlist-icon-header,
 .cart-icon-header {
     font-size: 1.25rem;
     margin: 0 10px;
@@ -333,11 +317,6 @@ li {
     color: var(--link-hover);
 }
 
-.user-avatar {
-    width: 50px;
-    height: 50px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
 
 /* Third Level */
 .nav {
@@ -374,7 +353,7 @@ li {
 
 
     .logo {
-        padding: 10px;
+        padding: 20px;
     }
 
 
@@ -396,16 +375,6 @@ li {
 5. HomePage
 ==============================================================================*/
 /* ----------- Section 1 --------------*/
-
-.hero-wrapper {
-    background-image: url(/assets/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-    margin: auto;
-    padding: 0;
-}
 
 .brand-name-slogan {
     padding-top: 22%;
@@ -489,14 +458,39 @@ li {
     border-color: var(--link-hover);
 }
 
-/*=============================================================================
-7. Contact Page
-==============================================================================*/
+.container-contact-us {
+    padding: 20px;
+}
+
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us {
+    padding: 20px;
+}
+
+.contact-img img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .row-contact-us {
+        flex-direction: column;
+    }
+
+    .contact-us {
+        width: 100%;
+    }
+}
 
 
-/*=============================================================================
-8. Login Page
-==============================================================================*/
+
 
 /*=============================================================================
 9. Cart Page
@@ -620,13 +614,6 @@ li {
     padding: 15px 0;
 }
 
-
-.payment-img {
-    max-width: 335px;
-    width: 100%;
-    margin: auto;
-    margin-bottom: 15px;
-}
 
 .copyright {
     font-size: 0.875rem;
