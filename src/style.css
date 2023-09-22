@@ -182,16 +182,7 @@ li {
 }
 
 /* ------------------------------- 4.1. Mobile Header ---------------------------------*/
-/* First Level */
 
-/* Second Level */
-.logo-sm {
-    font-size: 99%;
-    font-weight: bold;
-    font-size: 1.25rem;
-    color: var(--secondary-color);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
 
 /* Third level */
 .third-level-sm {
@@ -212,9 +203,6 @@ li {
         display: none;
     }
 
-    .social-icon {
-        margin: 5px;
-    }
 
 }
 
@@ -238,13 +226,7 @@ li {
         width: 100%;
     }
 
-    .navbar-toggler {
-        padding: 0.25rem;
-    }
-
-    .navbar-toggler-icon {
-        padding-right: 0.25rem;
-    }
+    
 }
 
 /* ----------------------------- 4.2. Desktop Header ----------------------------------*/

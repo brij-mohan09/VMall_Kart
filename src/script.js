@@ -61,16 +61,6 @@ $(function () {
         document.getElementById('number').value=num;
     }
   }
-  //===================================================================
-  // Price Range Slider
-  //===================================================================
-  
-  // const priceRangeInput = document.getElementById("range");
-  // const selectedPriceSpan = document.getElementById("selectedPrice");
-  
-  // priceRangeInput.addEventListener("input", function () {
-  //   const selectedPrice = this.value;
-  //   selectedPriceSpan.innerText = "₹" + selectedPrice;
-  // });
+ 
   
   
